@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "DinkieBitmap9";
+  src: url("DinkieBitmap-9pxDemo.woff") format("woff"),
+    /* Modern Browsers */ url("DinkieBitmap-9pxDemo.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+body {
+  font-family: "DinkieBitmap9";
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#display {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
